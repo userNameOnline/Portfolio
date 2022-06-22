@@ -13,18 +13,18 @@ body {
 /* Nav Bar ---- */
 #navBar {
   background: black;
-  color: white;
   padding: 20px;
   text-align: right;
+  position: fixed;
+  width: 100%;
 }
 
 #navBar a {
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-weight: bolder;
-  margin: 10px;
+  margin-right: 50px;
   color: springgreen;
-  padding: 5px;
 }
 
 #navBar a:hover {
