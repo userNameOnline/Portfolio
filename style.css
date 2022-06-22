@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: darkgray;
+}
+
+/* Nav Bar ---- */
+#navBar {
+  background: black;
+  color: white;
+  padding: 20px;
+  text-align: right;
+}
+
+#navBar a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  margin: 10px;
+  color: springgreen;
+  padding: 5px;
+}
+
+#navBar a:hover {
+  color: white;
+}
+
+/* Main ----- */
+#main {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  padding: 200px;
+}
+
+#arrow {
+  border: 2px solid;
+  width: 30px;
+  height: 30px;
+  border-width: 5px 5px 0px 0px;
+  transform: rotate(135deg);
+  margin: 0 auto;
+  color: black;
+}
+
+/* Portfolio ---- */
+#portfolio {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding: 100px 0px;
+}
+
+#product-landing {
+  background: url('https://res.cloudinary.com/dxhum1veq/image/upload/v1638979683/Web%20Page%20Screenshots/grocery_gateway.png');
+  background-size: cover;
+}
+
+#freelance-photographer {
+  background: url('https://res.cloudinary.com/dxhum1veq/image/upload/v1648682458/Web%20Page%20Screenshots/imageedit_1_4004082048.jpg');
+  background-size: cover;
+}
+
+#tech-doc {
+  background: url('https://res.cloudinary.com/dxhum1veq/image/upload/v1638979682/Web%20Page%20Screenshots/tech_page.png');
+  background-size: cover;
+}
+
+#calculator {
+  background: url('https://res.cloudinary.com/dxhum1veq/image/upload/v1655923292/Web%20Page%20Screenshots/calculator_sc.png');
+  background-size: cover;
+}
+
+#matching-game {
+  background: url('https://res.cloudinary.com/dxhum1veq/image/upload/v1655923390/Web%20Page%20Screenshots/matching_game_sc.jpg');
+  background-size: cover;
+}
+
+.portfolio-text {
+  color: white;
+  background: rgba(0, 0, 0, .8);
+  padding: 50px;
+}
+
+.portfolio-text button {
+  color: springgreen;
+  background: black;
+  border: 2px solid;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.portfolio-text button a {
+  text-decoration: none;
+  color: springgreen;
+}
+
+.portfolio-text button:hover {
+  cursor: pointer;
+}
+
+/* About ----- */
+#about {
+  font-family: 'Open Sans', sans-serif;
+  padding: 50px;
+  margin: 50px;
+  background: rgba(0, 0, 0, .2);
+  border-radius: 10px;
+}
+
+#me {
+  height: 150px;
+}
