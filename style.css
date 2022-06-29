@@ -7,24 +7,31 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: darkgray;
+  background: rgba(0, 0, 255, .5);
+}
+
+.break {
+  margin: 0px 100px;
+  background: black;
+  border: 1px solid black;
 }
 
 /* Nav Bar ---- */
 #navBar {
   background: black;
-  padding: 20px;
-  text-align: right;
   position: fixed;
+  top: 0;
   width: 100%;
+  text-align: right;
+  padding: 20px;
 }
 
 #navBar a {
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
-  font-weight: bolder;
+  color: white;
   margin-right: 50px;
-  color: springgreen;
+  font-size: 20px;
 }
 
 #navBar a:hover {
@@ -34,27 +41,32 @@ body {
 /* Main ----- */
 #main {
   font-family: 'Open Sans', sans-serif;
-  font-size: 2rem;
   text-align: center;
+  color: rgba(255, 255, 255);
+  font-size: 25px;
   padding: 200px;
-  margin-bottom: 100px;
+  margin: 100px;
+}
+
+#title, #sub-title {
+  margin: 0;
 }
 
 #arrow {
   border: 2px solid;
   width: 30px;
   height: 30px;
-  border-width: 5px 5px 0px 0px;
+  border-width: 2px 2px 0px 0px;
   transform: rotate(135deg);
-  margin: 0 auto;
-  color: black;
+  color: white;
+  margin: 10px auto;
 }
 
 /* Portfolio ---- */
 #portfolio {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  padding: 100px 0px;
+  margin: 100px;
 }
 
 #product-landing {
@@ -77,8 +89,8 @@ body {
   background-size: cover;
 }
 
-#matching-game {
-  background: url('https://res.cloudinary.com/dxhum1veq/image/upload/v1655923390/Web%20Page%20Screenshots/matching_game_sc.jpg');
+#todo-list {
+  background: url('https://res.cloudinary.com/dxhum1veq/image/upload/v1656519794/Web%20Page%20Screenshots/todo_list_sc.jpg');
   background-size: cover;
 }
 
@@ -105,12 +117,16 @@ body {
   cursor: pointer;
 }
 
+.portfolio-item {
+  margin: 20px auto;
+}
+
 /* About ----- */
 #about {
   font-family: 'Open Sans', sans-serif;
-  padding: 50px;
-  margin: 50px;
-  background: rgba(0, 0, 0, .2);
+  font-size: 20px;
+  margin: 50px auto;
+  width: 50%;
 }
 
 #me {
